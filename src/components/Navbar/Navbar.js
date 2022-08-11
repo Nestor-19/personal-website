@@ -12,7 +12,7 @@ const Navigationbar = () => {
   }
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#16172a] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#16172a] text-[#ccd6f6] font-light'>
       <div>
         <img className='logo' src={logo} alt="logo" />
       </div>
