@@ -18,11 +18,11 @@ const Navigationbar = () => {
       </div>
 
       <ul className='hidden md:flex'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li className='navbar-headings'>Home</li>
+        <li className='navbar-headings'>About</li>
+        <li className='navbar-headings'>Experience</li>
+        <li className='navbar-headings'>Projects</li>
+        <li className='navbar-headings'>Contact</li>
       </ul>
 
       <div onClick={handleClick} className='md:hidden z-10'>
@@ -30,11 +30,11 @@ const Navigationbar = () => {
       </div>
 
       <ul className={!toggle ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#16172a] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6  text-4xl'>Experience</li>
-        <li className='py-6 text-4xl'>Projects</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl navbar-headings'>About</li>
+        <li className='py-6 text-4xl navbar-headings'>Home</li>
+        <li className='py-6  text-4x navbar-headingsl'>Experience</li>
+        <li className='py-6 text-4xl navbar-headings'>Projects</li>
+        <li className='py-6 text-4xl navbar-headings'>Contact</li>
       </ul>
       
       
