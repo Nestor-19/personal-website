@@ -1,18 +1,29 @@
-html{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* html{
   font-size: 62.5%;
-}
+} */
 
 body {
   margin: 0;
   font-weight: 300;
-  font-size: 11px;
+  font-size: 18px;
   line-height: 1.4;
   font-family: 'Helvetica Neue', 'sans-serif';
   color: #444;
   background-color: #1f2041;
-  /* overflow: hidden; */
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base{
+  li{
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
 
