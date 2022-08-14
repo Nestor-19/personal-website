@@ -32,7 +32,7 @@ const Navigationbar = () => {
       <ul className={!toggle ? 'hidden':'absolute top-0 left-0 w-full h-screen bg-[#16172a] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl navbar-headings'>About</li>
         <li className='py-6 text-4xl navbar-headings'>Home</li>
-        <li className='py-6  text-4x navbar-headingsl'>Experience</li>
+        <li className='py-6 text-4xl navbar-headings'>Experience</li>
         <li className='py-6 text-4xl navbar-headings'>Projects</li>
         <li className='py-6 text-4xl navbar-headings'>Contact</li>
       </ul>

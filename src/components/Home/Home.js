@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 const Home = () => {
 
     return (
-        <div className='w-full h-screen flex' name='Home'>
+        <div className='w-full h-screen' name='Home'>
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
 
                 <p className='text-[#ccd6f6] text-2xl'>Hey, I'm</p>
