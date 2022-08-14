@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navigationbar from "./components/Navbar/Navbar"
 import Home from './components/Home/Home';
+import About from './components/About/About';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       </Routes> */}
       <Navigationbar />
       <Home />
+      <About />
     </div>
     
   );
