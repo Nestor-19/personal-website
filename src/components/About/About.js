@@ -34,7 +34,7 @@ const About = () => {
 
             </div>
             <div>
-              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%]'></img>
+              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded'></img>
             </div>
           </div>
       </div>
