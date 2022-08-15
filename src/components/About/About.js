@@ -4,16 +4,16 @@ import nestor from "../../assets/images/nestor.jpg";
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#16172a] text-gray-300'>
+    <div name='About' className='w-full h-screen bg-[#16172a] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='pb-[10%] pl-4 flex flex-row text-4xl gap-3 font-bold'>
-            <p className=' inline hover:text-[#ffc857]'>
+            <p className='inline hover:text-[#ffc857]'>
                 👨🏽‍🎓 About Me
             </p>
           </div>
           <div></div>
-          </div>
+        </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-4 text-lg'>
             <div>
               <p className='pb-5'>Hi, I'm Nestor, a third year Computer Science Major at the University
