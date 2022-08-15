@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navigationbar from "./components/Navbar/Navbar"
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import Experience from './components/Experience/Experience';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navigationbar />
       <Home />
       <About />
+      <Experience />
     </div>
     
   );
