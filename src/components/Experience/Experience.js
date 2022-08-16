@@ -13,7 +13,6 @@ const Experience = () => {
                 </div>
 
                 <div className='pl-4 pr-4 text-gray-200 gap-[1%]'>
-    
                     <div className='rounded-lg border flex flex-col gap-4 bg-[#1f2041] pt-2 pl-2 pb-2'>
                         <p className='font-bold text-white'>CRM Analyst @ <p className='inline text-[#ffc857]'>Metadata Technologies</p></p>
                         <p>July 2019 – Sept. 2019</p>
@@ -26,7 +25,7 @@ const Experience = () => {
 
                 </div>
             </div>
-            <div className='pt-[11%] animate-bounce text-[150%] pr-[3%] text-white'>
+            <div className='pt-[30%] sm:pt-[11%] animate-bounce text-[150%] pr-[3%] text-white'>
                 <button><AiFillCaretDown /></button>
             </div>
         </div>
