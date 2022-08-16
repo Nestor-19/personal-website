@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <div name='Experience' className='w-full h-[670px] text-gray-300 bg-[#16172a]'>
         <div className='flex flex-col justify-center items-center w-full pt-[6%]'>
-            <div className='max-w-[1000px] gap-8'>
+            <div className='max-w-[1000px] w-full gap-8'>
                 <div className='pb-[6%] pl-4 flex flex-row text-4xl gap-3 font-bold'>
                     <p className='hover:text-[#ffc857]'>
                         🏢 Experience
