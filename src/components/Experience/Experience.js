@@ -3,10 +3,10 @@ import {AiFillCaretDown} from 'react-icons/ai'
 
 const Experience = () => {
   return (
-    <div name='Experience' className='w-full h-[670px] text-gray-300 bg-[#16172a]'>
-        <div className='flex flex-col justify-center items-center w-full pt-[6%]'>
+    <div name='Experience' className='w-full h-[780px] text-gray-300 bg-[#16172a]'>
+        <div className='flex flex-col justify-center items-center w-full sm:pt-[10%] pt-[30%]'>
             <div className='max-w-[1000px] w-full gap-8'>
-                <div className='pb-[6%] pl-4 flex flex-row text-4xl gap-3 font-bold'>
+                <div className='pb-[6%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold'>
                     <p className='hover:text-[#ffc857]'>
                         🏢 Experience
                     </p>
@@ -25,7 +25,7 @@ const Experience = () => {
 
                 </div>
             </div>
-            <div className='pt-[30%] sm:pt-[11%] animate-bounce text-[150%] pr-[3%] text-white'>
+            <div className='pt-[20%] sm:pt-[11%] animate-bounce text-[150%] pr-[3%] text-white'>
                 <button><AiFillCaretDown /></button>
             </div>
         </div>
