@@ -7,7 +7,7 @@ import Crypt from '../../assets/images/CryptStore.png'
 const Carousel = () => {
   return (
         <div id="carouselExampleCaptions" className="carousel slide relative" data-bs-ride="carousel">
-        <div class="carousel-inner relative w-full overflow-hidden border rounded-lg sm:h-[425px]">
+        <div class="carousel-inner relative w-full overflow-hidden border rounded-lg">
             <div class="carousel-item active relative float-left w-full">
             <img
                 src={UTM}
