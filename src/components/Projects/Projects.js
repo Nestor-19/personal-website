@@ -9,7 +9,7 @@ const Projects = () => {
                 <div className='pb-[6%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold'>
                     <p className='hover:text-[#ffc857]'>👨🏽‍💻 Projects</p>
                 </div>
-                <div className='pl-4 pr-4 text-gray-200 h-[50%]'>
+                <div className='pl-4 pr-4 text-gray-200'>
                     <Carousel />
                 </div>
 
