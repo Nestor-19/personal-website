@@ -68,7 +68,7 @@ const GridItems = () => {
                         <p className='pb-[4%]'>A Web3 inspired online book store that uses cryptocurrency as a form of payment.</p>
                         <p className='pb-[4%]'>React.js, Moralis, JavaScript, HTML, CSS</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/GDSCUTM-CommunityProjects/UTimeManager" target="_blank">
+                            href="https://github.com/WinstonPais/CryptStore" target="_blank">
                             <FaGithub />
                         </a>
                     </div>
