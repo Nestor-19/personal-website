@@ -28,7 +28,7 @@ const About = () => {
                 <ul className='pt-2 grid grid-cols-2'>
                     <li>• JavaScript (ES6+)</li> <li>• React</li>
                     <li>• Node.js</li> <li>• HTML & CSS</li> 
-                    <li>• Motoko</li> <li>• Express.js</li>
+                    <li>• Solidity</li> <li>• Express.js</li>
                 </ul>
               </p>
 

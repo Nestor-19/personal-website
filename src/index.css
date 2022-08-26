@@ -27,3 +27,26 @@ body {
   }
 }
 
+.div-content{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 220px;
+}
+
+.div-content:hover {
+  background: linear-gradient(125deg, #6A5ACD 45%, #16172a)!important;
+}
+
+#UTM{
+  background-position: center;
+}
+
+#musk{
+  background-size: 480px 220px;
+}
+
+
+
+
+
+
