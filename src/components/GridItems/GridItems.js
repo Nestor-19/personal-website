@@ -31,9 +31,8 @@ const GridItems = () => {
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                         NBA Ticket Explorer
                     </span>
-                    <div className='pt-4 pl-2  text-gray-300'>
-                        <p className='pb-[1%]'>A web-scraping application that displays the best available tickets for a NBA game.</p>
-                        <p className='pb-[2%]'>2nd Overall Winner in the SlamDunkHacks 2021.</p>
+                    <div className='pt-2 pl-2  text-gray-300'>
+                        <p className='pb-[2%]'>A web-scraping application that displays the best available tickets for a NBA game.</p>
                         <p className='pb-[1%]'>CSS, HTML, Java Script, Python, Selenium, Django</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
                             href="https://github.com/Nestor-19/NBA-Ticket-Explorer" target="_blank">
@@ -43,12 +42,12 @@ const GridItems = () => {
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${DNote})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content'>
+            <div style={{backgroundImage: `url(${DNote})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content' id="DNOTE">
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                         DNote
                     </span>
-                    <div className='pt-4 pl-2  text-gray-300'>
+                    <div className='pt-2 pl-2  text-gray-300'>
                         <p className='pb-[4%]'>A decentralized note-taking application that makes use of the Blockchain to store data.</p>
                         <p className='pb-[4%]'>Next.js, Solidity, Java Script, CSS, Truffle</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
@@ -64,9 +63,9 @@ const GridItems = () => {
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                         CryptStore
                     </span>
-                    <div className='pt-4 pl-2  text-gray-300'>
+                    <div className='pt-3 pl-2  text-gray-300'>
                         <p className='pb-[4%]'>A Web3 inspired online book store that uses cryptocurrency as a form of payment.</p>
-                        <p className='pb-[4%]'>React.js, Moralis, JavaScript, HTML, CSS</p>
+                        <p className='pb-[2%]'>React.js, Moralis, JavaScript, HTML, CSS</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
                             href="https://github.com/WinstonPais/CryptStore" target="_blank">
                             <FaGithub />
@@ -78,7 +77,7 @@ const GridItems = () => {
             <div style={{backgroundImage: `url(${Crypt})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
-                        BookIt NEED TO UPDATE ONCE FINISHED
+                        BookIt 
                     </span>
                     <div className='pt-4 pl-2  text-gray-300'>
                         <p className='pb-[4%]'>A full stack app to better manage your weekly schedule.</p>
@@ -91,7 +90,7 @@ const GridItems = () => {
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${MuskGame})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content' id='musk'>
+            <div style={{backgroundImage: `url(${MuskGame})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content musk'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                         Three Musketeers
@@ -99,10 +98,6 @@ const GridItems = () => {
                     <div className='pt-4 pl-2  text-gray-300'>
                         <p className='pb-[4%]'>An abstract strategy board game.</p>
                         <p className='pb-[4%]'>Java, JavaFX</p>
-                        {/* <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/GDSCUTM-CommunityProjects/UTimeManager" target="_blank">
-                            <FaGithub />
-                        </a> */}
                     </div>
                 </div>
             </div>

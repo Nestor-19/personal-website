@@ -41,9 +41,46 @@ body {
   background-position: center;
 }
 
-#musk{
+.musk{
+  background-size: 320px 220px;
+}
+
+#DNOTE{
+  background-position: center;
+}
+
+
+ @media only screen and (max-width: 650px){
+  .musk{
+    background-size: 580px 220px;
+  }
+}  
+
+
+@media only screen and (max-width: 600px){
+  .musk{
+    background-size: 470px 220px;
+  }
+} 
+
+#shell{
   background-size: 480px 220px;
 }
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
