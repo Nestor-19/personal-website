@@ -2,6 +2,7 @@ import React from 'react'
 import {FaGithub} from "react-icons/fa";
 import UTM from '../../assets/images/UTimeManager.png';
 import Shell from '../../assets/images/MyShell.png';
+import RMS from '../../assets/images/RMS.png';
 
 const MoreProjects = () => {
   return (
@@ -19,7 +20,7 @@ const MoreProjects = () => {
         </div>
 
 
-        <div style={{backgroundImage: `url(${UTM})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content' id="UTM">
+        <div style={{backgroundImage: `url(${RMS})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content' id="UTM">
             <div className='opacity-0 group-hover:opacity-100'>
                 <span className='text-md sm:text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                   Retail Management System

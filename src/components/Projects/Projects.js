@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
 
         <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4  '>
-            <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5'>
                 {isViewMore ? <MoreProjects />: <></>}
             </div>
         </div>

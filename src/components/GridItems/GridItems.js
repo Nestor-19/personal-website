@@ -5,6 +5,7 @@ import NBA from '../../assets/images/NBA.png';
 import DNote from '../../assets/images/DNote.png';
 import Crypt from '../../assets/images/CryptStore.png';
 import MuskGame from '../../assets/images/ThreeMuskGame.png';
+import BookIt from '../../assets/images/BookIt.png';
 
 
 const GridItems = () => {
@@ -74,16 +75,16 @@ const GridItems = () => {
                 </div>
             </div>
 
-            <div style={{backgroundImage: `url(${Crypt})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content'>
+            <div style={{backgroundImage: `url(${BookIt})`}} className='flex justify-center items-center group container rounded-lg mx-auto div-content BookIt'>
                 <div className='opacity-0 group-hover:opacity-100'>
                     <span className='text-2xl font-bold text-white tracking-wider pl-2 flex flex-row gap-3'>
                         BookIt 
                     </span>
                     <div className='pt-4 pl-2  text-gray-300'>
-                        <p className='pb-[4%]'>A full stack app to better manage your weekly schedule.</p>
-                        <p className='pb-[4%]'>MongoDB, Express.js, React, Node.js, Docker</p>
+                        <p className='pb-[4%]'>A full stack travel booking app that makes it easier to experience the world.</p>
+                        <p className='pb-[4%]'>MongoDB, Express.js, React, Node.js</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/WinstonPais/CryptStore" target="_blank">
+                            href="https://github.com/Nestor-19/BookIt" target="_blank">
                             <FaGithub />
                         </a>
                     </div>
@@ -96,7 +97,7 @@ const GridItems = () => {
                         Three Musketeers
                     </span>
                     <div className='pt-4 pl-2  text-gray-300'>
-                        <p className='pb-[4%]'>An abstract strategy board game.</p>
+                        <p className='pb-[4%]'>An abstract strategy board game that offers conflict between unequal forces!</p>
                         <p className='pb-[4%]'>Java, JavaFX</p>
                     </div>
                 </div>
