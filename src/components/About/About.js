@@ -35,8 +35,8 @@ const About = () => {
 
             </div>
             <div className='flex flex-col justify-center items-center'>
-              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded pb-8'></img>
-              <p className='pb-4 font-medium text-xl'>🔗 Connect with me</p>
+              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded'></img>
+              <p className='pb-4 font-medium text-xl pt-7'>🔗 Connect with me</p>
               <div className='flex gap-3 text-lg text-[#ccd6f6]'>
                 <a href='https://github.com/Nestor-19'><FaGithub /></a>
                 <a href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><FaLinkedin /></a>
