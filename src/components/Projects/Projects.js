@@ -21,7 +21,7 @@ const Projects = () => {
                 <GridItems />
             </div>
 
-            <div className='pt-8 pb-5 flex justify-center font-normal'>
+            <div className='pt-10 pb-5 flex justify-center font-normal'>
               <button 
                   className='rounded-lg bg-gray-300 w-[20%] md:w-[15%] sm:w-[15%] text-[#16172a] view-more 
                   transform transition duration-300 hover:scale-[1.1]'

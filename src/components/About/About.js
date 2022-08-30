@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import nestor from "../../assets/images/nestor.jpg";
+import {FaGithub, FaLinkedin, FaFile} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -23,7 +24,7 @@ const About = () => {
                 I am passionate about building impactful software and learning new technologies ⚙️. 
                 My interests consist of Web 🌐 and Blockchain ₿ development, as well as Artificial Intelligence 🤖.
               </p>
-              <p className='pb-5'>
+              <p className=''>
                 Here are a few technologies I’ve been working with recently:
                 <ul className='pt-2 grid grid-cols-2'>
                     <li>• JavaScript (ES6+)</li> <li>• React</li>
@@ -33,8 +34,14 @@ const About = () => {
               </p>
 
             </div>
-            <div>
-              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded'></img>
+            <div className='flex flex-col justify-center items-center'>
+              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded pb-8'></img>
+              <p className='pb-4 font-medium text-xl'>🔗 Connect with me</p>
+              <div className='flex gap-3 text-lg text-[#ccd6f6]'>
+                <a href='https://github.com/Nestor-19'><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><FaLinkedin /></a>
+                <a href=''><FaFile /></a>
+              </div>
             </div>
           </div>
       </div>

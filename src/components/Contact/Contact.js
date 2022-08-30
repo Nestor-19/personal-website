@@ -7,11 +7,12 @@ const Contact = () => {
             <div className="pb-8 text-gray-300">
                 <span className="text-4xl pr-2 waving-hand">👋</span>
                 <p className="text-4xl font-bold inline hover:text-[#ffc857]">Contact Me</p>
-                <p className="pt-5 text-2xl">Say Hi!</p>
             </div>
             <input className='bg-[#ccd6f6] p-2 rounded-md outline-none placeholder-black placeholder-opacity-75' type='text' placeholder="Name" name='name'></input>
             <input className='my-4 p-2 bg-[#ccd6f6] rounded-md outline-none placeholder-black placeholder-opacity-75' type='email' placeholder="Email" name='email'></input>
-            <textarea className='my-4 bg-[#ccd6f6] p-2 rounded-md outline-none placeholder-black placeholder-opacity-75' name='message' rows='10' placeholder="Message me!"></textarea>
+            <textarea className='my-4 bg-[#ccd6f6] p-2 rounded-md outline-none placeholder-black placeholder-opacity-75' name='message' rows='10' placeholder="Message"></textarea>
+            
+            <button className='text-black border-2 bg-[#ccd6f6]  hover:bg-[#ffc857] hover:text-black px-8 py-1 my-6 mx-auto rounded-md font-medium'>Say Hi!</button>
         </form>
     </div>
   )
