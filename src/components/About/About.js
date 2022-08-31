@@ -36,10 +36,10 @@ const About = () => {
             </div>
             <div className='flex flex-col justify-center items-center'>
               <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded'></img>
-              <div className='flex gap-3 text-lg text-[#ccd6f6] pt-10'>
-                <a href='https://github.com/Nestor-19'><FaGithub /></a>
-                <a href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><FaLinkedin /></a>
-                <a href=''><FaFile /></a>
+              <div className='flex gap-3 text-xl pt-7 social-icons'>
+                <a href='https://github.com/Nestor-19'><span><FaGithub /></span></a>
+                <a href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><span><FaLinkedin /></span></a>
+                <a href=''><span><FaFile /></span></a>
               </div>
             </div>
           </div>

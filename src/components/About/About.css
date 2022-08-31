@@ -1,4 +1,29 @@
  li{
    cursor: auto;
-} 
+}
+
+.social-icons a{
+  color: #1d3557;
+  background: #ccd6f6;
+  border-radius: 5px;
+  padding: 6px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+  background: #a8dadc;
+}
+
+
+
+
+
+
+
+
+
 
