@@ -3,11 +3,11 @@ import './Contact.css'
 const Contact = () => {
 
   return (
-    <div name='Contact' className="w-full h-screen flex items-center justify-center sm:mt-[25%] p-4">
+    <div name='Contact' className="w-full h-screen flex items-center justify-center p-4">
         <form action="https://formspree.io/f/xzbwzlrd" method="POST" className="flex flex-col max-w-[1000px] w-full">
             <div className="pb-10 text-gray-300">
                 <span className="text-4xl pr-2 waving-hand">👋</span>
-                <p className="text-4xl font-bold inline hover:text-[#ffc857]">Contact Me</p>
+                <p className="text-4xl font-bold inline hover:text-[#ffc857]">Contact</p>
             </div>
 
             <input
@@ -37,7 +37,7 @@ const Contact = () => {
               required
             />
 
-            <button type="submit" className='text-black border-2 bg-[#ccd6f6]  hover:bg-[#ffc857] hover:text-black px-8 py-1 my-6 mx-auto rounded-md font-medium'>
+            <button type="submit" className='text-black border-2 bg-[#ccd6f6]  hover:bg-[#ffc857] hover:text-black px-8 py-1 mt-6 mx-auto rounded-md font-medium'>
               Say Hi!
             </button>
 
