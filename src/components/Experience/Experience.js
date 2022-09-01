@@ -1,5 +1,6 @@
 import React from 'react'
 import {AiFillCaretDown} from 'react-icons/ai'
+import { Link } from 'react-scroll';
 
 const Experience = () => {
   return (
@@ -26,7 +27,9 @@ const Experience = () => {
                 </div>
             </div>
             <div className='pt-[20%] sm:pt-[11%] animate-bounce text-[150%] pr-[3%] text-white'>
-                <button><AiFillCaretDown /></button>
+                <Link to="Projects" smooth={true} duration={500}>
+                    <p><button><AiFillCaretDown /></button></p>
+                </Link>
             </div>
         </div>
     </div>
