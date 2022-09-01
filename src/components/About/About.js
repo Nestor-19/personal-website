@@ -5,7 +5,7 @@ import {FaGithub, FaLinkedin, FaFile} from "react-icons/fa";
 
 const About = () => {
   return (
-    <div name='About' className='w-full h-screen bg-[#16172a] text-gray-300'>
+    <div name='About' className='w-full h-screen pt-[25%] md:pt-0 bg-[#16172a] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 pt-[10%]'>
           <div className='pb-[10%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold'>

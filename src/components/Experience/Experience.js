@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const Experience = () => {
   return (
-    <div name='Experience' className='w-full h-[780px] text-gray-300 bg-[#16172a]'>
+    <div name='Experience' className='w-full h-[780px] text-gray-300 bg-[#16172a] pt-[10%] sm:pt-0'>
         <div className='flex flex-col justify-center items-center w-full sm:pt-[10%] pt-[30%]'>
             <div className='max-w-[1000px] w-full gap-8'>
                 <div className='pb-[6%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold'>
