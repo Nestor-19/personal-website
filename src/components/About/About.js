@@ -35,11 +35,11 @@ const About = () => {
 
             </div>
             <div className='flex flex-col justify-center items-center'>
-              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded'></img>
+              <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded' alt=''></img>
               <div className='flex gap-3 text-xl pt-7 social-icons'>
-                <a href='https://github.com/Nestor-19'><span><FaGithub /></span></a>
-                <a href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><span><FaLinkedin /></span></a>
-                <a href=''><span><FaFile /></span></a>
+                <a target='_blank' rel="noreferrer" href='https://github.com/Nestor-19'><span><FaGithub /></span></a>
+                <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><span><FaLinkedin /></span></a>
+                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1EgVlCsU62xw9gI7V-EZ7-z8DrphGaph9/view?usp=sharing'><span><FaFile /></span></a>
               </div>
             </div>
           </div>
