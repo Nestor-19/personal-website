@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.3bce5254.css",
+    "main.js": "/personal-website/static/js/main.a1ecd2cf.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/UTimeManager.png": "/personal-website/static/media/UTimeManager.1a5890a0c4d9f3e75d12.png",
+    "static/media/CryptStore.png": "/personal-website/static/media/CryptStore.46394362bb64cfdeb325.png",
+    "static/media/BookIt.png": "/personal-website/static/media/BookIt.9e7903e53e4a4c4022a4.png",
+    "static/media/NBA.png": "/personal-website/static/media/NBA.255c10da9335a9d0ce3b.png",
+    "static/media/ThreeMuskGame.png": "/personal-website/static/media/ThreeMuskGame.2f8973651d609bf89454.png",
+    "static/media/nestor.jpg": "/personal-website/static/media/nestor.f38ae23aa9918768cb97.jpg",
+    "static/media/logo.png": "/personal-website/static/media/logo.1dbe755619e909bdc7b0.png",
+    "static/media/RMS.png": "/personal-website/static/media/RMS.aa0dbe5b2f15e15b4382.png",
+    "static/media/MyShell.png": "/personal-website/static/media/MyShell.a408a7fb9756e47e4736.png",
+    "static/media/DNote.png": "/personal-website/static/media/DNote.f34d031950f75540560d.png",
+    "static/media/helvetica-neu.ttf": "/personal-website/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/personal-website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/personal-website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/personal-website/index.html",
+    "main.3bce5254.css.map": "/personal-website/static/css/main.3bce5254.css.map",
+    "main.a1ecd2cf.js.map": "/personal-website/static/js/main.a1ecd2cf.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bce5254.css",
+    "static/js/main.a1ecd2cf.js"
+  ]
+}
