@@ -22,17 +22,15 @@ const Home = () => {
                 </h2>
                 
                 <div className='flex items-center'>
-                    <a class="relative inline-block px-2 py-3 my-8 font-medium group text-sm sm:text-base cursor-pointer">
-                        <Link to="About" smooth={true} duration={500}>
-                            <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
-                            <span class="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
-                                <span class="relative text-black group-hover:text-white flex items-center mx-3 gap-x-2.5 animate-pulse">Check out my page
-                                    <span className='group-hover:rotate-90 duration-300'>
-                                        <HiArrowNarrowRight />
-                                    </span>
+                    <Link to="About" smooth={true} duration={500} className="relative inline-block px-2 py-3 my-8 font-medium group text-sm sm:text-base cursor-pointer">
+                        <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                        <span className="absolute inset-0 w-full h-full bg-white border-2 border-black group-hover:bg-black"></span>
+                            <span className="relative text-black group-hover:text-white flex items-center mx-3 gap-x-2.5 animate-pulse">Check out my page
+                                <span className='group-hover:rotate-90 duration-300'>
+                                    <HiArrowNarrowRight />
                                 </span>
-                        </Link>
-                    </a>
+                            </span>
+                    </Link>
                 </div>
 
 
