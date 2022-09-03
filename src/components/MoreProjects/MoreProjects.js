@@ -1,6 +1,5 @@
 import React from 'react'
 import {FaGithub} from "react-icons/fa";
-import UTM from '../../assets/images/UTimeManager.png';
 import Shell from '../../assets/images/MyShell.png';
 import RMS from '../../assets/images/RMS.png';
 
@@ -29,7 +28,7 @@ const MoreProjects = () => {
                     <p className='pb-[4%]'>A simple GUI, for a local supermarket to effectively manage their inventory.</p>
                     <p className='pb-[4%]'>Python, Tkinter, DB Browser for SQLite</p>
                     <a className='text-center hover:text-[#16172a] text-[20px]' 
-                        href="https://github.com/Nestor-19/Retail-Management-System" target="_blank">
+                        href="https://github.com/Nestor-19/Retail-Management-System" target="_blank" rel="noreferrer">
                         <FaGithub />
                     </a>
                 </div>

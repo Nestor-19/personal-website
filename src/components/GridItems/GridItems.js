@@ -20,7 +20,7 @@ const GridItems = () => {
                         <p className='pb-[4%]'>A full stack app to better manage your weekly schedule.</p>
                         <p className='pb-[4%]'>MongoDB, Express.js, React.js, Node.js, Docker</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/GDSCUTM-CommunityProjects/UTimeManager" target="_blank">
+                            href="https://github.com/GDSCUTM-CommunityProjects/UTimeManager" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
                     </div>
@@ -36,7 +36,7 @@ const GridItems = () => {
                         <p className='pb-[2%]'>A web-scraping application that displays the best available tickets for a NBA game.</p>
                         <p className='pb-[1%]'>CSS, HTML, Java Script, Python, Selenium, Django</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/Nestor-19/NBA-Ticket-Explorer" target="_blank">
+                            href="https://github.com/Nestor-19/NBA-Ticket-Explorer" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
                     </div>
@@ -52,7 +52,7 @@ const GridItems = () => {
                         <p className='pb-[4%]'>A decentralized note-taking application that makes use of the Blockchain to store data.</p>
                         <p className='pb-[4%]'>Next.js, Solidity, Java Script, CSS, Truffle</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/Nestor-19/DNote" target="_blank">
+                            href="https://github.com/Nestor-19/DNote" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
                     </div>
@@ -68,7 +68,7 @@ const GridItems = () => {
                         <p className='pb-[4%]'>A Web3 inspired online book store that uses cryptocurrency as a form of payment.</p>
                         <p className='pb-[2%]'>React.js, Moralis, JavaScript, HTML, CSS</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/WinstonPais/CryptStore" target="_blank">
+                            href="https://github.com/WinstonPais/CryptStore" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
                     </div>
@@ -84,7 +84,7 @@ const GridItems = () => {
                         <p className='pb-[4%]'>A full stack travel booking app that makes it easier to experience the world.</p>
                         <p className='pb-[4%]'>MongoDB, Express.js, React, Node.js</p>
                         <a className='text-center hover:text-[#16172a] text-[20px]' 
-                            href="https://github.com/Nestor-19/BookIt" target="_blank">
+                            href="https://github.com/Nestor-19/BookIt" target="_blank" rel="noreferrer">
                             <FaGithub />
                         </a>
                     </div>
