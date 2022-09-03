@@ -36,7 +36,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        if: ${{ github.ref == 'refs/heads/master' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: |
           git config --global user.name $github_username
           git config --global user.email $github_email
