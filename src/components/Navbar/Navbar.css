@@ -12,3 +12,6 @@
     transform: scale(1.25);
 }
 
+.scrollbar::-webkit-scrollbar {
+    display: none;
+} 
