@@ -4,11 +4,11 @@ import './Contact.css'
 const Contact = () => {
 
   return (
-    <div name='Contact' className="w-full h-screen flex items-center justify-center p-4">
+    <div name='Contact' className="w-full h-[710px] flex items-center justify-center p-4">
         <form action="https://formspree.io/f/xzbwzlrd" method="POST" className="flex flex-col max-w-[1000px] w-full">
             <div className="pb-10 text-gray-300">
-                <span className="text-4xl pr-2 waving-hand">👋</span>
-                <p className="text-4xl font-bold inline hover:text-[#ffc857]">Contact</p>
+                <span className="text-4xl pr-2 waving-hand fontSmall">👋</span>
+                <p className="text-4xl font-bold inline hover:text-[#ffc857] fontSmall">Contact</p>
             </div>
 
             <input

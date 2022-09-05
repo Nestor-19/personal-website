@@ -1,5 +1,4 @@
 import React from 'react';
-import './Home.css';
 import {HiArrowNarrowRight} from "react-icons/hi"
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
