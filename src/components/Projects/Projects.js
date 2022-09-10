@@ -25,7 +25,7 @@ const Projects = () => {
             {!isViewMore &&
             <div className='pt-10 pb-5 flex justify-center font-normal'>
               <button 
-                  className='rounded-lg bg-gray-300 w-[30%] md:w-[15%] sm:w-[15%] text-[#16172a] view-more 
+                  className='rounded-lg bg-gray-300 w-[30%] md:w-[15%] sm:w-[15%] text-[#16172a]
                   transform transition duration-300 hover:scale-[1.1]'
                   onClick={toggleButton}>
                   View More
@@ -35,22 +35,22 @@ const Projects = () => {
         </div>
 
         {isViewMore &&
-          <>
-            <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4'>
+          <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4 w-full'>
+            <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4 w-full'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5'>
                     {isViewMore ? <MoreProjects />: <></>}
                 </div>
             </div> 
 
-            <div className='pt-5 flex justify-center font-normal'>
+            <div className='pt-10 pb-5 flex justify-center font-normal'>
               <button 
-                  className='rounded-lg bg-gray-300 w-[30%] md:w-[15%] sm:w-[15%] text-[#16172a] view-more 
+                  className='rounded-lg bg-gray-300 w-[30%] md:w-[15%] sm:w-[15%] text-[#16172a]
                   transform transition duration-300 hover:scale-[1.1]'
                   onClick={toggleButton}>
                   View Less
               </button>
             </div>
-          </>
+          </div>
       
         }
         
