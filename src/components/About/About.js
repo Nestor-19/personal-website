@@ -24,14 +24,14 @@ const About = () => {
                 I am passionate about building impactful software and learning new technologies ⚙️. 
                 My interests consist of Web 🌐 and Blockchain ₿ development, as well as Artificial Intelligence 🤖.
               </p>
-              <p className=''>
+              <p>
                 Here are a few technologies I’ve been working with recently:
-                <ul className='pt-2 grid grid-cols-2'>
+              </p>
+              <ul className='pt-2 grid grid-cols-2'>
                     <li>• JavaScript (ES6+)</li> <li>• React</li>
                     <li>• Node.js</li> <li>• HTML & CSS</li> 
                     <li>• Solidity</li> <li>• Express.js</li>
-                </ul>
-              </p>
+              </ul>
 
             </div>
             <div className='flex flex-col justify-center items-center'>

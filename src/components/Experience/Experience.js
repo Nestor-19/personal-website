@@ -15,7 +15,7 @@ const Experience = () => {
 
                 <div className='pl-4 pr-4 text-gray-200 gap-[1%]'>
                     <div className='rounded-lg border flex flex-col gap-4 bg-[#1f2041] pt-2 pl-2 pb-2'>
-                        <p className='font-bold text-white'>CRM Analyst @ <p className='inline text-[#ffc857]'>Metadata Technologies</p></p>
+                        <p className='font-bold text-white'>CRM Analyst @ <span className='inline text-[#ffc857]'>Metadata Technologies</span></p>
                         <p>July 2019 – Sept. 2019</p>
                         <div className='text-md sm:text-lg'>
                             <ul className='list-outside flex flex-col gap-4 list-disc ml-5'>
