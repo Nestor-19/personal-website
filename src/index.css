@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* html{
-  font-size: 62.5%;
-} */
-
 body {
   margin: 0;
   font-weight: 300;
@@ -47,6 +42,7 @@ body {
 
 #DNOTE{
   background-position: center;
+  background-size: cover;
 }
 
 .BookIt{
@@ -60,6 +56,18 @@ body {
   }
 } 
 
+@media only screen and (max-width: 850px){
+  #DNOTE{
+    background-size: 360px 220px;
+  }
+} 
+
+@media only screen and (max-width: 613px){
+  #DNOTE{
+    background-size: 530px 220px;
+  }
+} 
+
 
  @media only screen and (max-width: 650px){
   .musk{
@@ -70,12 +78,16 @@ body {
 
 @media only screen and (max-width: 600px){
   .musk{
-    background-size: 470px 220px;
+    background-size: 490px 220px;
   }
 } 
 
 #shell{
-  background-size: 480px 220px;
+  background-size: 460px 220px;
+}
+
+#store{
+  background-size: cover;
 }
 
 
@@ -90,7 +102,25 @@ body {
   .musk{
     background-size: 380px 220px;
   }
-}  
+} 
+
+
+@media only screen and (max-width: 380px){
+  .musk{
+    background-size: 350px 220px;
+  }
+} 
+
+
+
+@media only screen and (max-width: 418px){
+  #shell{
+    background-size: 360px 220px;
+  }
+}
+
+
+
 
 
 

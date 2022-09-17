@@ -5,9 +5,9 @@
 }
 
 .navbar-headings{
-    transition: 0.5s all ease-in-out;
+    transition: 0.2s all ease-in-out;
 }
 
 .navbar-headings:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
 }

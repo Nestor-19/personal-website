@@ -17,10 +17,12 @@ const Experience = () => {
                     <div className='rounded-lg border flex flex-col gap-4 bg-[#1f2041] pt-2 pl-2 pb-2'>
                         <p className='font-bold text-white'>CRM Analyst @ <p className='inline text-[#ffc857]'>Metadata Technologies</p></p>
                         <p>July 2019 – Sept. 2019</p>
-                        <div className=' flex flex-col gap-2'>
-                            <li>Used Microsoft Dynamics CRM to maintain company database with essential account and sales information.</li>
-                            <li>Provided recommendations to improve CRM management systems.</li>
-                            <li>Researched potential clients and markets to better understand the economic environment.</li>
+                        <div className='text-md sm:text-lg'>
+                            <ul className='list-outside flex flex-col gap-4 list-disc ml-5'>
+                                <li>Used Microsoft Dynamics CRM to maintain company database with essential account and sales information.</li>
+                                <li>Provided recommendations to improve CRM management systems.</li>
+                                <li>Researched potential clients and markets to better understand the economic environment.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -31,6 +33,7 @@ const Experience = () => {
                     <p><button><AiFillCaretDown /></button></p>
                 </Link>
             </div>
+
         </div>
     </div>
   )
