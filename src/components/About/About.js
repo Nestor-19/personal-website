@@ -39,7 +39,7 @@ const About = () => {
               <div className='flex gap-3 text-xl pt-7 social-icons'>
                 <a target='_blank' rel="noreferrer" href='https://github.com/Nestor-19'><span><FaGithub /></span></a>
                 <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/nestor-d-souza-8943bb219/'><span><FaLinkedin /></span></a>
-                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1EgVlCsU62xw9gI7V-EZ7-z8DrphGaph9/view?usp=sharing'><span><FaFile /></span></a>
+                <a target='_blank' rel="noreferrer" href='https://drive.google.com/file/d/1lRg57_IBVV98JI2KbnECHXTkf4ptWV3U/view?usp=sharing'><span><FaFile /></span></a>
               </div>
             </div>
           </div>
