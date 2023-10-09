@@ -5,10 +5,10 @@ import {FaGithub, FaLinkedin, FaFile} from "react-icons/fa";
 
 const About = () => {
   return (
-    <div name='About' className='w-full h-[780px] bg-[#16172a] text-gray-300 pt-[65%] sm:pt-0 sm:pb-[10%]'>
+    <div name='About' className='w-full h-[780px]  text-[#F0F0F0] pt-[65%] sm:pt-0 sm:pb-[0%]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
-        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 pt-[10%]'>
-          <div className='pb-[12%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold fontSmall'>
+        <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 pt-[1%]'>
+          <div className='pb-[4%] pl-4 flex flex-row text-3xl sm:text-4xl gap-3 font-bold fontSmall'>
             <p className='inline hover:text-[#ffc857]'>
                 👨🏽‍🎓 About Me
             </p>
@@ -17,7 +17,7 @@ const About = () => {
         </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-4 text-lg'>
             <div>
-              <p className='pb-5'>Hi, I'm Nestor, a third year Computer Science Major at the University
+              <p className='pb-5'>Hi, I'm Nestor, a fourth year Computer Science Major at the University
                 of Toronto 🎓. I recently completed a full stack project as part of the Google Developers Club (GDSC) 👨🏽‍💻.
               </p>
               <p className='pb-5'>
