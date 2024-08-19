@@ -14,16 +14,12 @@
    -webkit-font-smoothing: antialiased;
 }
 
-a:hover {
+.social-icons a:hover {
   background: #a8dadc;
 }
 
 
-
-
-
-
-
-
-
-
+.company-link {
+  font-weight: 310;
+  color: #ffc857;
+}

@@ -17,24 +17,25 @@ const About = () => {
         </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-10 px-4 text-lg'>
             <div>
-              <p className='pb-5'>Hi, I'm Nestor, a fourth year Computer Science Major at the University
-                of Toronto 🎓. I recently completed a full stack project as part of the Google Developers Club (GDSC) 👨🏽‍💻.
+              <p className='pb-5'>Hi, I'm Nestor, a fourth year Computer Science student at the University
+                of Toronto 🎓. For the past 16 months, I worked at <a href='https://bluecatnetworks.com/' target='_blank' rel='noreferrer' className='company-link'>BlueCat Networks</a>, where I designed and implemented key DNS-related features such as providing support for new resource records, as well as EDNS Client Subnet (ECS).
+                
               </p>
               <p className='pb-5'>
-                I am passionate about building impactful software and learning new technologies ⚙️. 
-                My interests consist of Web 🌐 and Blockchain ₿ development, as well as Artificial Intelligence 🤖.
+                I am a passionate full-stack developer who consistently strives to deliver impactful software solutions ⚙️.
+                My distinct background has enabled me to communicate effectively, solve complex problems, and quickly adapt to new technologies.
               </p>
               <p>
                 Here are a few technologies I’ve been working with recently:
               </p>
               <ul className='pt-2 grid grid-cols-2'>
-                    <li>• JavaScript (ES6+)</li> <li>• React</li>
-                    <li>• Node.js</li> <li>• HTML & CSS</li> 
-                    <li>• Solidity</li> <li>• Express.js</li>
+                    <li>• Java</li> <li>• React.js</li>
+                    <li>• Python</li> <li>• Spring Boot</li> 
+                    <li>• Solidity</li> <li>• Django</li>
               </ul>
 
             </div>
-            <div className='flex flex-col justify-center items-center'>
+            <div className='flex flex-col justify-center items-center mb-20'>
               <img src={nestor} className='object-cover h-60 w-85 duration-500 sm:hover:scale-[110%] hover:scale-[105%] rounded' alt=''></img>
               <div className='flex gap-3 text-xl pt-7 social-icons'>
                 <a target='_blank' rel="noreferrer" href='https://github.com/Nestor-19'><span><FaGithub /></span></a>
